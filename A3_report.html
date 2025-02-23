@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 3</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 3</small>
+			Visualization Critique & Redesign
+		</h1>
+
+		<p>
+			<strong>Matthew Johnson</strong> — <em>mattj822@mit.edu</em>
+		</p>
+	</header>
+
+	<main>
+		<section>
+			<h2>Reading & Critique</h2>
+
+			<figure>
+				<img src="https://vis-society.github.io/assets/imgs/covid-spiral.png" alt="" style="width: 100%"/>
+			</figure>
+
+			<p>
+				Insights about the data/visualization:
+			</p>
+
+			<ul>
+				<li>The data visualization captures the cyclic nature of the data well. By plotting
+					the data in a spiral, the visualization captures how the data changes over the course 
+					of the year.</li>
+				<li>The extreme contraction in new COVID cases in July 2021 gives me both the impression of how 
+					seasonal the virus is and how effective the vaccine rollout was.
+				</li>
+				<li>By including the first few weeks of January in the data right at the end of the 
+					spiral the author demonstrates how rapidly the omicron was spreading at the time of
+					the article. 
+				</li>
+			</ul>
+
+			<p>
+				Design Critique:
+			</p>
+
+			<ul>
+				<li>The design gives a good impression of the number of cases, but its lack of gridlines on the spiral
+					makes it difficult to determine the exact number of cases at any given point. The small scale in the 
+					corner of the visualization is difficult to use due to its distance from the main visualization. This 
+					makes it difficult to make any quantitative ratio judgements about the data.
+				</li>
+				<li>The original article was primarily about the new more virulent omicron varient of COVID yet the plot
+					makes no distinction between the different varients of COVID. This makes it difficult to determine the
+					impact of the omicron varient on the overall number of cases. This could lead the audience to conclude 
+					incorrect conclusions about the impact of the omicron varient on the overall number of cases or the
+					effectiveness of public health measures.
+				</li>
+				<li>In a similar vein one of the primary concerns at the time the article was written was hosptial capacity 
+					and the mortality rate of the omicron varient. By not including any information about hosptializations or
+					deaths the visualization may not capture the success of the vaccine rollout in preventing severe cases of
+					COVID or the reported lower hosptialization and mortality rate of the omicron varient. 
+				</li>
+				<li>
+					The visualization also fails to capture transmission rates of the virus well. Because of the exponential
+					nature of the virus, the number of cases can increase rapidly. By not including any information about the
+					transmission rates of the virus the visualization does not capture the main idea of the article well that
+					the omicron varient was spreading rapidly.
+				</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Visualization Sketches</h2>
+
+      <figure>
+				<img src="Sketch 1.jpg" alt="" style="width: 100%" />
+				<figcaption>
+          Sketch 1: In my first sketch I wanted to create a very simple visualization that provided an improved interface 
+		  for making quantitative judgements about the data. I included a common baseline for all the data to allow for
+		  direct quantitative ratio comparisons. I also included gridlines to make it easy to make quantitative determinations
+		  about the data. I included the 2022 projections to reinforce the idea that the omicron varient was spreading rapidly
+		  and could have major impacts on the number of cases. What works well in this visualization is its simplicity and ease
+		  of understanding. The data is very clear and easy to read and compare. Some elements that could be improved are better 
+		  spacing of the data to allow for the vertical axis to be more easily read, error bars or some other indication of the
+		  uncertainty in the 2022 projections. Another element I would like to improve is the granulaity of the data. By aggregating
+		  the data by month I lose some of the detail of the data. 
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Rationale for Sketch 1:
+			</p>
+
+			<ul>
+				<li>Common baseline allows for direct quantitative ratio comparisons.</li>
+				<li>Direct comparison of data by month across different years. Very clear gridlines to make quantitative determinations
+					easy to make.
+				</li>
+				<li>
+					Including 2022 projections into the future to reinforce the idea that the omicron varient was spreading rapidly and 
+					could have major impacts on the number of cases.
+				</li>
+			</ul>
+
+			<figure>
+				<img src="Sketch 2.jpg" alt="" style="width: 100%" />
+				<figcaption>
+					Sketch 2: In the second sketch I wanted to creae a visulaizaiton that captured the trends over time at a more granular level
+					than the first sketch. I included line segments for each of the years present in the data and included dotted lines to demonstrate
+					the continuitiny of the data between years. Finally, I clearly deliniated projections in another color with a cone of uncertainty to
+					reflect that projection uncertainty increases as we move further into the future. This presentation allows for a more granular 
+					comparison of data in the relevant months year to year. Importantly the common scale and gridlines allow for quantitative ratio
+					comparisons to be made. The line segments could be improved upon because rather than conveying continuity they make the visualization
+					more disjoint and cluttered than it needs to be. The projection fan also rapidly exceeds the bounds of the data indicating that a log scale 
+					may be more appropriate for the data in this form. Finally, I worry that the visualization does not fairly compare the different years as 
+					because of the different starting points of each year and the exponential nature of viral infections the first years have an "unfair"
+					advantage in the visualization and may leave the reader with the feeling that we are not making progress in the fight against COVID.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Rationale for Sketch 2:
+			</p>
+
+			<ul>
+				<li>Capture the continuous nature of time more effectively with a line chart.</li>
+				<li>Still allow for easy quantitative comparison betweeen years. </li>
+				<li>Clearly demonstrate where the data turns into a projection and show the uncertainty in the projections.</li>
+			</ul>
+
+			<figure>
+				<img src="Sketch 3.jpg" alt="" style="width: 100%"/>
+				<figcaption>
+					Sketch 3: In the third sketch I wanted to facet out the various aspects of the virus mentioned in the source article 
+					including the transmission rate, the hospitalization rate, and the mortality rate. I included a line chart for each of
+					these aspects of the virus with a common scale. Since the original visualization did not contain any information about
+					the transmission rate, hospitalization rate, or mortality rate I based it on the general trends of the virus. This plot 
+					does a better job of capturing a "fair" representation of the data across the different years. By dividing new cases by
+					the total number of cases it corrects for the exponential nature of the virus and the fact that different years started 
+					with drastically different infected bases. By keeping the data in a single continuous line on each facet I believe it 
+					captures the continuity better than sketch 2, though it does make it more difficult to compare the different aspects of the
+					virus in a particular month across years. The projections are also more difficult to read in this visualization because of the
+					it happens on the far right of the visualization, causing the reader to have to look back and forth between the left and 
+					right sides of the visualization to make comparisons. I tried to mitigate this effect by including gridlines across the 
+					visualization. 
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Rationale for Sketch 3:
+			</p>
+
+			<ul>
+				<li>Facet out more of the components of the virus mentioned in the source article.</li>
+				<li>Make the comparisons more "fair" across years by making the data rates rather than absolute numbers.</li>
+				<li>Highlight that new cases does not directly translate to more hospitalizations or deaths due to immunity via the vaccine.</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Final Visualization Design</h2>
+      
+			<figure>
+				<img src="Vis Final.png" alt="" style="width: 100%" />
+				<figcaption>
+					Final Visualization: 7-day rolling average of new COVID cases in the United States from 2020 to 2022. The color and 
+					thickeness of the line indicates the transmission rate of the virus. 
+				</figcaption>
+			</figure>
+
+		</section>
+
+		<section>
+			<h2>Design Process & Design Decisions</h2>
+
+			<p>
+        For the final visualization I decided to go "back to the basics" as the visualization is geared towards a general audience so the 
+		most important element of the design is that the visualization is clear and easy to understand. Due to the time series nature of the data I chose the line mark 
+		with an x-axis representing time and a y-axis representing the number of new cases. To make quantitative ratio comparisons easier I chose
+		to include gridlines that run horizontally across the data. I chose to also include the transmission rate through the visual encoding channels of
+		both color and thickness in the line. To calculate the transmision rate I used the number of new cases in a day, divided by the number of new cases in the last 
+		14 days (a proxy for active number of infected population). Transmission rate is a crucial element to understanding disease dynamics and by including this informaiton it helps
+		the viewer understand how the public health measures introduced changed the spread of the disease even if new cases continued to tick up. It also helps compare 
+		across time as the transmission rate is a function of the number of current infected population helping to make more "fair" comparisons between years even if they
+		had vastly different case numbers. I chose this dual encoding because it is difficult to make judgements for close points in terms
+		of color but it is easy to make judgements about the thickness of the line. Similarly making judgements of thickeness for points that are
+		far apart is difficult but making judgements about their color is easier. By using this dual encoding I hoped to add a new layer of information
+		to the original visualization that highlights one of the important elements of the original article, the transmission rate. I chose to end the timeline
+		roughly where the article ended to not give myself any unfair advantage in the prroducing a visualization as I am sure the original
+		author would have made different decisions about the data if they had access to the data I do. An element of the data that I am worried is lost in 
+		my visualization is the impact of the vaccine and virus mutations on mortality and hospitalization rates. I chose not to include them as I wanted to 
+		keep the visualization simple, yet I worry that their omission may lead the viewer to incorrect conclusions about the impact of the vaccine and greater
+		fears about the new omicron varient which could sew fear and panic in the general population.
+      </p>
+
+      <h3>Reflection</h3>
+
+      <p>
+        In creating the final visualization I was not able to address all of my critiques of the orignial visualization. I was able to make the data more
+		quantitative and easier to understand but I was not able to address the lack of information about hospitalizations and deaths. In seeking to incorporate
+		this informaiton I got a better understanding of the tradeoff between simplicity and density of information in a visualization. Whenever I tried to incorporate 
+		more information about the virus the visualization became more cluttered and difficult to understand. Ultimately I worried that this information overload would
+		detract users from engaging with the visualization at all, or possibly lead to misunderstanding of the data presented. In keeping with my core critique of the
+		original visualization I ensured that my visualization allowed for easy quantitative ratio comparisons had a common baseline and included gridlines. I also included 
+		some annotations ito the visualization to remind the reader of important dates and public health measures that were introduced. One phenomenon that the original visualization
+		captured more effectively than mine was the cyclic nature of the virus. By using a spiral the original visualization lined up months across years and made the annual pattern more
+		obvious. Overall, I believe I was successful in creating a visualization that was more easily understood and allowed for more quantitative ratio comparisons than the original.
+      </p>
+
+		</section>
+	</main>
+</body>
+</html>
